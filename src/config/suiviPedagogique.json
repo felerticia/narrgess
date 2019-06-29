@@ -1,0 +1,40 @@
+{
+    "maitriser": {
+        "A": "Connaître les principaux organes et commandes du véhicule, effectuer des vérifications intérieures et extérieures",
+        "B": "Entrer, s'installer au poste de conduite et en sortir",
+        "C": "Tenir, tourner le volant et maintenir la trajectoire",
+        "D": "Démarrer et s'arrêter",
+        "E": "Doser l'accélération et le freinage à diverses allures",
+        "F": "Utiliser la boîte de vitesses",
+        "G": "Diriger la voiture en avant en ligne droite et en courbe en adaptant allure et trajectoire",
+        "H": "Regarder autour de soi et avertir",
+        "I": "Effectuer une marche arrière et un demi-tour en sécurité"
+    },
+    "apprehender": {
+        "A": "Rechercher la signalisation, les indices utiles et en tenir compte",
+        "B": "Positionner le véhicule sur la chaussée et choisir la voie de circulation",
+        "C": "Adapter l’allure aux situations",
+        "D": "Tourner à droite et à gauche en agglomération",
+        "E": "Détecter, identifier et franchir les intersections suivant le régime de priorité",
+        "F": "Franchir les ronds-points et les carrefours à sens giratoire",
+        "G": "S’arrêter et stationner en épi, en bataille et en créneau"
+    },
+    "circuler": {
+        "A": "Evaluer et maintenir les distances de sécurité",
+        "B": "Croiser, dépasser et être dépassé",
+        "C": "Passer les virages et conduire en déclivité",
+        "D": "Connaître les caractéristiques des autres usagers et savoir se comporter à leur égard avec respect et courtoisie",
+        "E": "S’insérer, circuler et sortir d’une voie rapide",
+        "F": "Conduire dans une file de véhicules et dans une circulation dense",
+        "G": "Conduire quand l’adhérence et la visibilité sont réduites"
+    },
+    "pratiquer": {
+        "A": "Suivre un itinéraire de manière autonome",
+        "B": "Préparer et effectuer un voyage longue distance en autonomie",
+        "C": "Connaître les principaux facteurs de risque au volant et les recommandations à appliquer",
+        "D": "Connaitre les comportements à adopter en cas d’accident : protéger, alerter, secourir",
+        "E": "Faire l’expérience des aides à la conduite du véhicule",
+        "F": "Avoir des notions sur l’entretien, le dépannage et les situations d’urgence",
+        "G": "Pratiquer l’éco-conduite"
+    }
+}

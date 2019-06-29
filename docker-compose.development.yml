@@ -1,0 +1,9 @@
+webapp:
+  image: conduite-center-front-dev:latest
+  restart: always
+  env_file:
+    - .env.development
+  volumes:
+    - "./:/app"
+  ports:
+    - "3000:3000"

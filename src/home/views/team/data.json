@@ -1,0 +1,68 @@
+{
+    "Montpellier": {
+        "image": "/img/team/sila-montpellier.png",
+        "agenceCity": "Montpellier",
+        "agenceName": "Louis Blanc",
+        "agenceAddress1": "4, Boulevard Louis Blanc",
+        "agenceAddress2": "34 000 Montpellier",
+        "agenceTel": "09.84.43.31.90",
+        "responsableName": "Sila",
+        "horairesCode": "Du lundi au vendredi de 10h à 12h et de 14h à 19h",
+        "horairesConduite": "Du lundi au samedi de 6h30 à 19h30"
+    },
+    "Lyon 6": {
+        "image": "/img/team/narimane-lyon-6.png",
+        "agenceCity": "Lyon 6ème",
+        "agenceName": "Lafayette",
+        "agenceAddress1": "303, Cours Lafayette",
+        "agenceAddress2": "69 006 Lyon",
+        "agenceTel": "04.81.91.96.81",
+        "responsableName": "Narimane",
+        "horairesCode": "Du lundi au vendredi de 10h à 12h et de 14h à 19h et le samedi de 10h à 12h",
+        "horairesConduite": "Du lundi au samedi de 6h30 à 20h30"
+    },
+    "Lyon 7": {
+        "image": "/img/team/gaelle-lyon-7.png",
+        "agenceCity": "Lyon 7ème",
+        "agenceName": "Claude Bernard",
+        "agenceAddress1": "22, Quai Claude Bernard",
+        "agenceAddress2": "69 007 Lyon",
+        "agenceTel": "04.81.91.96.80",
+        "responsableName": "Gaëlle",
+        "horairesCode": "Du lundi au vendredi de 14h à 19h",
+        "horairesConduite": "Du lundi au samedi de 6h30 à 19h30"
+    },
+    "Villeurbanne": {
+        "image": "/img/team/lina-villerbanne.png",
+        "agenceCity": "Villeurbanne",
+        "agenceName": "La Doua",
+        "agenceAddress1": "52, Avenue Roger Salangro",
+        "agenceAddress2": "69 100 Villeurbanne",
+        "agenceTel": "04.81.91.96.82",
+        "responsableName": "Lina",
+        "horairesCode": "Du lundi au vendredi de 14h à 19h",
+        "horairesConduite": "Du lundi au samedi de 6h30 à 19h30"
+    },
+    "Clermont-Ferrand": {
+        "image": "/img/team/victor-clermont-ferrand.png",
+        "agenceCity": "Clermont-Ferrand",
+        "agenceName": "Etats-Unis",
+        "agenceAddress1": "3, Avenue des Etats-Unis",
+        "agenceAddress2": "63 000 Clermont-Ferrand",
+        "agenceTel": "09.87.88.83.71",
+        "responsableName": "Victor",
+        "horairesCode": "Du mardi au samedi de 10h à 12h et de 14h à 19h",
+        "horairesConduite": "Du lundi au samedi de 6h30 à 19h30"
+    },
+    "Grenoble": {
+        "image": "/img/team/julien-grenoble.png",
+        "agenceCity": "Grenoble",
+        "agenceName": "Hubert Dubedout",
+        "agenceAddress1": "5, Rue Saint Jacques",
+        "agenceAddress2": "38 000 Grenoble",
+        "agenceTel": "04.81.91.96.81",
+        "responsableName": "Julien",
+        "horairesCode": "Du mardi au samedi de 10h à 12h et de 14h à 19h",
+        "horairesConduite": "Du lundi au samedi de 6h30 à 19h30"
+    }
+}

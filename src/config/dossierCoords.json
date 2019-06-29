@@ -1,0 +1,112 @@
+{
+    "eleve": {
+        "civilite": {
+            "label": "Civilité",
+            "type": "select",
+            "options": [
+                "Monsieur",
+                "Madame",
+                "Mademoiselle"
+            ]
+        },
+        "nom": {
+            "label": "Nom",
+            "type": "text"
+        },
+        "prenom": {
+            "label": "Prénom",
+            "type": "text"
+        },
+        "nomJeuneFille": {
+            "label": "Nom de jeune fille",
+            "type": "text"
+        },
+        "autrePrenom": {
+            "label": "Autre(s) Prénom(s)",
+            "type": "text"
+        },
+        "adresse": {
+            "label": "Adresse",
+            "type": "address"
+        },
+        "tel": {
+            "label": "Téléphone",
+            "type": "text"
+        },
+        "dateNaissance": {
+            "label": "Date de naissance",
+            "type": "date"
+        },
+        "villeNaissance": {
+            "label": "Ville de naissance",
+            "type": "text"
+        },
+        "dptmNaissance": {
+            "label": "Département de naissance",
+            "type": "text"
+        },
+        "paysNaissance": {
+            "label": "Pays de naissance",
+            "type": "text"
+        },
+        "nationalite": {
+            "label": "Nationalité",
+            "type": "text"
+        },
+        "permis": {
+            "label": "Permis",
+            "type": "text"
+        },
+        "neph": {
+            "label": "NEPH",
+            "type": "text"
+        },
+        "email": {
+            "label": "E-Mail",
+            "type": "text"
+        }
+    },
+    "representantLegal" : {
+        "civilite": {
+            "label": "Civilité",
+            "type": "select",
+            "options": [
+                "Monsieur",
+                "Madame",
+                "Mademoiselle"
+            ]
+        },
+        "nom": {
+            "label": "Nom",
+            "type": "text"
+        },
+        "prenom": {
+            "label": "Prénom",
+            "type": "text"
+        },
+        "adresse": {
+            "label": "Adresse",
+            "type": "address"
+        },
+        "tel": {
+            "label": "Téléphone",
+            "type": "text"
+        },
+        "dateNaissance": {
+            "label": "Date de naissance",
+            "type": "date"
+        },
+        "villeNaissance": {
+            "label": "Ville de naissance",
+            "type": "text"
+        },
+        "dptmNaissance": {
+            "label": "Département de naissance",
+            "type": "text"
+        },
+        "paysNaissance": {
+            "label": "Pays de naissance",
+            "type": "text"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+# nginx
+FROM nginx:1.13-alpine
+
+# add bash
+RUN apk update && apk add bash
+
+# change workdir
+WORKDIR /usr/share/nginx
+
+# copy files
+RUN rm -rf /usr/share/nginx/html/*
+COPY build/ /usr/share/nginx/html/
+RUN mkdir /etc/ssl-certificates
+COPY ssl/* /etc/ssl-certificates/
+
+# conf
+RUN rm -rf /etc/nginx/conf.d
+COPY conf /etc/nginx
+
+# entrypoint
+COPY docker-entrypoint.production.sh /docker-entrypoint.production.sh
+RUN chmod +x /docker-entrypoint.production.sh
+
+# launch !
+CMD [ "/docker-entrypoint.production.sh" ]

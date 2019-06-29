@@ -1,0 +1,28 @@
+# node
+FROM node:8
+
+# update apk
+RUN apt-get update 
+
+# add bash
+RUN apt-get install bash
+
+# change workdir
+WORKDIR /app
+
+# copy files
+COPY public /app/public
+COPY src /app/src
+COPY package.json /app/package.json
+COPY yarn.lock /app/yarn.lock
+
+# install
+RUN yarn global add react-scripts
+RUN yarn install
+
+# entrypoint
+COPY docker-entrypoint.development.sh /docker-entrypoint.development.sh
+RUN chmod +x /docker-entrypoint.development.sh
+
+# launch !
+CMD ["/docker-entrypoint.development.sh"]

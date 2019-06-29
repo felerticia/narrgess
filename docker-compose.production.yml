@@ -1,0 +1,8 @@
+webapp:
+  image: conduite-center-front-prod:latest
+  restart: always
+  ports:
+    - "80:80"
+    - "443:443"
+  env_file:
+    - .env.production
